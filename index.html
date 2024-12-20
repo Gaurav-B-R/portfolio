@@ -3,198 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurav Bharatavalli - ML Engineer</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Gaurav Bharatavalli Rangaswamy - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        html {
-            scroll-behavior: smooth;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
         }
-        .skill-tag {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            border-radius: 0.25rem;
-            margin: 0.25rem;
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #34495e;
+            color: white;
         }
-        .skill-tag.programming {
-            background-color: #EBF5FF;
-            color: #1E40AF;
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
         }
-        .skill-tag.libraries {
-            background-color: #ECFDF5;
-            color: #065F46;
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #34495e;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 5px;
+        }
+        .contact a {
+            margin: 0 10px;
+            color: #34495e;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .contact a:hover {
+            color: #e67e22;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
-<body class="bg-gray-100">
-    <!-- Navigation -->
-    <nav class="bg-white shadow-lg sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex justify-between items-center">
-                <div class="text-xl font-bold">Gaurav B R</div>
-                <div class="space-x-6">
-                    <a href="#about" class="hover:text-blue-600">About</a>
-                    <a href="#experience" class="hover:text-blue-600">Experience</a>
-                    <a href="#projects" class="hover:text-blue-600">Projects</a>
-                    <a href="#skills" class="hover:text-blue-600">Skills</a>
-                </div>
+<body>
+
+    <header style="text-align: center; padding: 60px; background: linear-gradient(135deg, #34495e, #2c3e50); color: white;">
+        <img src="profile.jpg" alt="Gaurav Bharatavalli Rangaswamy" style="width: 160px; height: 160px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);">
+        <h1 style="margin: 0; font-size: 3.2em; font-weight: bold; letter-spacing: 0.5px;">Gaurav Bharatavalli Rangaswamy</h1>
+        <p style="font-size: 1.6em; margin-top: 15px; letter-spacing: 0.7px;">Machine Learning Engineer | Data Scientist | AI Enthusiast</p>
+        <p style="font-size: 1.2em; margin-top: 10px; color: #e67e22; font-style: italic;">Driven by Data, Powered by AI</p>
+        <div style="margin-top: 25px;">
+            <a href="https://www.linkedin.com/in/gaurav-b-r/" target="_blank" style="color: white; margin: 0 15px; text-decoration: none;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
+            <a href="https://github.com/Gaurav-B-R" target="_blank" style="color: white; margin: 0 15px; text-decoration: none;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
+            <a href="https://www.kaggle.com/gauravbr" target="_blank" style="color: white; margin: 0 15px; text-decoration: none;"><i class="fab fa-kaggle" style="font-size: 2em;"></i></a>
+        </div>
+    </header>    
+
+<div class="content">
+
+    <div class="section" style="margin-top: 50px;">
+        <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">About Me</h2>
+        <p style="font-size: 1.2em; line-height: 1.8; color: #2c3e50;">I am an innovative and results-driven Machine Learning Engineer passionate about artificial intelligence, deep learning, and data analytics. With extensive experience in developing scalable models, conducting data-driven research, and crafting optimal business solutions, I am committed to advancing AI-driven innovations that unlock business potential and enhance user experiences through intelligent automation and predictive modeling.</p>
+    </div>
+
+    <div class="section" style="margin-top: 50px;">
+        <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">Technical Skills</h2>
+        <ul style="list-style: none; padding: 0; margin-top: 20px;">
+            <li style="margin-bottom: 10px;"><strong>Programming/Tools:</strong> Python, R Programming, SQL, Flask, FastAPI, MS Excel, Google Analytics</li>
+            <li style="margin-bottom: 10px;"><strong>Libraries:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels, TensorFlow, Keras, PyTorch, OpenCV, NLTK</li>
+            <li style="margin-bottom: 10px;"><strong>Database:</strong> MySQL, MS SQL Server, Apache Spark</li>
+            <li style="margin-bottom: 10px;"><strong>Cloud:</strong> AWS (S3, Redshift, SageMaker)</li>
+            <li style="margin-bottom: 10px;"><strong>Business Intelligence:</strong> Power BI, Tableau, Looker Studio</li>
+            <li style="margin-bottom: 10px;"><strong>Statistics/Machine Learning (ML):</strong> Supervised Learning: Linear Regression, Time Series Forecasting, Logistic Regression, Decision Trees, Random Forest, Boosting; Unsupervised Learning: Clustering, Principle Component Analysis (PCA); Others: Hypothesis Testing, Natural Language Processing (NLP), Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), Computer Vision</li>
+            <li style="margin-bottom: 10px;"><strong>Key Skills:</strong> Exploratory Data Analysis, Data Visualization, Predictive and Statistical Modeling, Git</li>
+        </ul>
+    </div>
+
+    <div class="section" style="margin-top: 50px;">
+        <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">Work Experience</h2>
+        <div class="work-entry" style="margin-bottom: 30px;">
+            <h3 style="color: #34495e; font-size: 1.6em;">Data Analyst</h3>
+            <p style="font-style: italic; color: #7f8c8d;">SignDesk (Desk Nine Pvt Ltd) | Bengaluru, India (Feb 2022 – Aug 2023)</p>
+            <ul style="list-style: disc; margin-left: 20px; line-height: 1.8;">
+                <li>Developed 12+ Python algorithms leveraging advanced machine learning models, including predictive data modeling and statistical analysis, for forecasting website traffic growth and optimizing lead generation pipelines.</li>
+                <li>Implemented data-driven blog performance analysis using Google Analytics API integration with Power BI and Looker Studio, resulting in a 37% increase in website traffic through actionable insights.</li>
+                <li>Conducted Exploratory Data Analysis (EDA) on high-impact metrics from Google Analytics and Google Search Console, enhancing user engagement and generating 500+ quality leads monthly.</li>
+                <li>Engineered and streamlined ETL processes for large-scale marketing datasets (4-5 million data points) using SQL, Python, and visualization tools, supporting efficient analysis of over 1TB of data.</li>
+                <li>Optimized data pipelines by enhancing data flow efficiency by 32%, ensuring real-time analytics and business intelligence reporting.</li>
+                <li>Enhanced website personalization through machine learning-based recommendation models, boosting user session duration by 17% through adaptive content delivery.</li>
+                <li>Designed and developed 20+ dynamic Power BI dashboards to monitor key performance indicators (KPIs), driving ROI growth by 16% through data-informed marketing strategies.</li>
+                <li>Conducted large-scale A/B testing across 150+ web pages, using statistical significance testing and hypothesis evaluation to improve page conversion rates by 26%.</li>
+                <li>Ensured data integrity and resolved critical issues in dashboards, pipelines, and data warehouses, conducting rigorous quality assurance for seamless data operations.</li>
+            </ul>
+        </div>
+    </div>    
+
+    <div class="section" style="margin-top: 50px;">
+        <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">Projects</h2>
+        <div class="project-entry" style="margin-bottom: 30px;">
+            <h3 style="color: #34495e; font-size: 1.4em;">NLP-Powered Chatbot API using GPT-2, FastAPI, and Hugging Face Transformers</h3>
+            <p style="font-style: italic; color: #7f8c8d;">Dec 2024 (Ongoing)</p>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <ul style="list-style: none; padding-left: 0; margin: 0;">
+                    <li style="margin-bottom: 10px;">🚀 Developing a scalable NLP-based conversational chatbot leveraging GPT-2 from Hugging Face’s Transformers.</li>
+                    <li style="margin-bottom: 10px;">💻 Utilized FastAPI for API deployment and Uvicorn for real-time query processing.</li>
+                    <li style="margin-bottom: 10px;">🔍 Implemented contextual query understanding, intent recognition, and API integration using secure public endpoints via Ngrok.</li>
+                    <li style="margin-bottom: 10px;">📊 Achieved a training loss of 1.638 after 7 epochs, ensuring high-quality response generation.</li>
+                    <li style="margin-bottom: 10px;">🌐 Focused on query understanding, response ranking, and large-scale model deployment, aligning with modern search and assistant technologies.</li>
+                </ul>
+                <p style="margin-top: 10px;"><a href="https://github.com/Gaurav-B-R/Clark_SPS_NLP_Chatbot" target="_blank" style="color: #e67e22; text-decoration: none; font-weight: bold;">View Project on GitHub</a></p>
             </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="about" class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/3 mb-8 md:mb-0">
-                    <img src="profile.jpg" alt="Gaurav Bharatavalli" class="rounded-full w-48 h-48 mx-auto object-cover shadow-lg">
-                </div>
-                <div class="md:w-2/3 md:pl-12">
-                    <h1 class="text-4xl font-bold mb-2">Gaurav Bharatavalli Rangaswamy</h1>
-                    <h2 class="text-2xl text-gray-600 mb-4">ML Engineer</h2>
-                    <p class="text-gray-700 mb-6">
-                        Data Analytics professional with expertise in machine learning, deep learning, and business intelligence. 
-                        Based in Greater Boston, MA.
-                    </p>
-                    <div class="flex space-x-4">
-                        <a href="mailto:gauravhsn8@gmail.com" class="text-gray-600 hover:text-blue-600">
-                            <i class="fas fa-envelope text-2xl"></i>
-                        </a>
-                        <a href="https://linkedin.com" class="text-gray-600 hover:text-blue-600">
-                            <i class="fab fa-linkedin text-2xl"></i>
-                        </a>
-                        <a href="https://github.com" class="text-gray-600 hover:text-blue-600">
-                            <i class="fab fa-github text-2xl"></i>
-                        </a>
-                        <a href="https://kaggle.com" class="text-gray-600 hover:text-blue-600">
-                            <i class="fab fa-kaggle text-2xl"></i>
-                        </a>
-                    </div>
-                </div>
+        <div class="project-entry" style="margin-bottom: 30px;">
+            <h3 style="color: #34495e; font-size: 1.4em;">AI-Based Hair Color Manipulation Using PyTorch and OpenCV</h3>
+            <p style="font-style: italic; color: #7f8c8d;">Aug 2024</p>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <ul style="list-style: none; padding-left: 0; margin: 0;">
+                    <li style="margin-bottom: 10px;">🎨 Developed an AI-powered solution for hair color manipulation using PyTorch, OpenCV, and rembg for background removal and accurate hair region detection.</li>
+                    <li style="margin-bottom: 10px;">⚙️ Enhanced model performance to handle complex backgrounds using BiSeNet and torchvision for applying precise color changes.</li>
+                    <li style="margin-bottom: 10px;">📋 Automated the entire process from background removal to final image stitching, ensuring seamless integration and high-quality results.</li>
+                </ul>
+                <p style="margin-top: 10px;"><a href="https://github.com/Gaurav-B-R/AI-Hair-Color-Manipulation-PyTorch-OpenCV-rembg" target="_blank" style="color: #e67e22; text-decoration: none; font-weight: bold;">View Project on GitHub</a></p>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Experience Section -->
-    <section id="experience" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-8">Professional Experience</h2>
-            <div class="bg-white rounded-lg shadow-lg p-6">
-                <h3 class="text-2xl font-bold mb-2">Data Analyst</h3>
-                <p class="text-gray-600 mb-4">SignDesk (Desk Nine Pvt Ltd) | Feb 2022 – Aug 2023</p>
-                <ul class="space-y-2">
-                    <li class="flex items-start">
-                        <span class="mr-2">•</span>
-                        <span>Developed 12+ Python algorithms leveraging advanced machine learning models for forecasting website traffic growth.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="mr-2">•</span>
-                        <span>Implemented data-driven blog performance analysis resulting in 37% increase in website traffic.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="mr-2">•</span>
-                        <span>Engineered ETL processes for large-scale marketing datasets supporting analysis of over 1TB of data.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="mr-2">•</span>
-                        <span>Enhanced website personalization through ML-based recommendation models, boosting user session duration by 17%.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="mr-2">•</span>
-                        <span>Designed 20+ dynamic Power BI dashboards, driving ROI growth by 16%.</span>
-                    </li>
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education-entry" style="margin-bottom: 30px;">
+            <h3 style="color: #34495e; font-size: 1.4em;">Clark University</h3>
+            <p style="font-style: italic; color: #7f8c8d;">Aug 2023 - Dec 2024</p>
+            <p><strong>Master of Science, Data Analytics (Deep Learning)</strong></p>
+            <p><em>Worcester, MA, USA</em></p>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <p><strong>Coursework:</strong></p>
+                <ul style="list-style: square; margin-left: 20px; line-height: 1.6;">
+                    <li>Python Programming</li>
+                    <li>Mathematical Statistics</li>
+                    <li>Linear Regression and Time Series Forecasting</li>
+                    <li>Applied Machine Learning</li>
+                    <li>Fundamentals of Data Engineering</li>
+                    <li>Applied Deep Learning</li>
+                    <li>Natural Language Processing</li>
+                    <li>Data Mining with Splunk</li>
+                    <li>Data Visualization and Storytelling</li>
                 </ul>
             </div>
         </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-16">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-8">Projects</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold mb-2">NLP-Powered Chatbot API</h3>
-                    <p class="text-gray-600 mb-4">Dec 2024 - Ongoing</p>
-                    <p class="text-gray-700">
-                        Developing a scalable NLP-based conversational chatbot using GPT-2, FastAPI, and Hugging Face Transformers. 
-                        Achieved training loss of 1.638 after 7 epochs.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold mb-2">AI-Based Hair Color Manipulation</h3>
-                    <p class="text-gray-600 mb-4">Aug 2024</p>
-                    <p class="text-gray-700">
-                        Developed an AI-powered solution using PyTorch, OpenCV, and rembg for hair color manipulation 
-                        and background removal.
-                    </p>
-                </div>
+        <div class="education-entry" style="margin-bottom: 30px;">
+            <h3 style="color: #34495e; font-size: 1.4em;">International Institute of Information Technology, Bangalore</h3>
+            <p style="font-style: italic; color: #7f8c8d;">Sep 2022 - Jun 2023</p>
+            <p><strong>Advanced Programme, Data Science (Deep Learning)</strong></p>
+            <p><em>Bengaluru, Karnataka, IN</em></p>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <p><strong>Coursework:</strong></p>
+                <ul style="list-style: square; margin-left: 20px; line-height: 1.6;">
+                    <li>Programming in Python</li>
+                    <li>Exploratory Data Analysis</li>
+                    <li>Data Visualization</li>
+                    <li>Inferential Statistics</li>
+                    <li>Machine Learning: Linear Regression, Logistic Regression, Tree Models, Random Forest, Boosting</li>
+                    <li>Unsupervised Learning: Clustering, Principal Component Analysis</li>
+                    <li>Natural Language Processing</li>
+                    <li>Hypothesis Testing</li>
+                    <li>Database Design</li>
+                    <li>Advanced SQL</li>
+                </ul>
             </div>
         </div>
-    </section>
+        <div class="education-entry">
+            <h3 style="color: #34495e; font-size: 1.4em;">BMS Institute of Technology and Management</h3>
+            <p style="font-style: italic; color: #7f8c8d;">Aug 2017 - Aug 2021</p>
+            <p><strong>Bachelor of Engineering</strong></p>
+            <p><em>Bengaluru, Karnataka, IN</em></p>
+        </div>
+    </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-8">Technical Skills</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold mb-4">Programming & Tools</h3>
-                    <div class="flex flex-wrap">
-                        <span class="skill-tag programming">Python</span>
-                        <span class="skill-tag programming">R Programming</span>
-                        <span class="skill-tag programming">SQL</span>
-                        <span class="skill-tag programming">Flask</span>
-                        <span class="skill-tag programming">FastAPI</span>
-                        <span class="skill-tag programming">MS Excel</span>
-                        <span class="skill-tag programming">Google Analytics</span>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold mb-4">Libraries & Frameworks</h3>
-                    <div class="flex flex-wrap">
-                        <span class="skill-tag libraries">Pandas</span>
-                        <span class="skill-tag libraries">NumPy</span>
-                        <span class="skill-tag libraries">TensorFlow</span>
-                        <span class="skill-tag libraries">PyTorch</span>
-                        <span class="skill-tag libraries">Scikit-learn</span>
-                        <span class="skill-tag libraries">OpenCV</span>
-                        <span class="skill-tag libraries">NLTK</span>
-                    </div>
-                </div>
+    <div class="section">
+        <h2>Contact</h2>
+        <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #e67e22;">
+            <p><strong>Email:</strong> <a href="mailto:gauravhsn8@gmail.com" style="color: #34495e; text-decoration: none;">gauravhsn8@gmail.com</a></p>
+            <p><strong>Location:</strong> Boston, MA</p>
+            <p><strong>Phone:</strong> <a href="tel:+15087977068" style="color: #34495e; text-decoration: none;">+1 (508) 797-7068</a></p>
+            <div style="margin-top: 10px;">
+                <a href="https://www.linkedin.com/in/gaurav-b-r/" target="_blank" style="margin-right: 15px; color: #34495e;"><i class="fab fa-linkedin" style="font-size: 1.5em;"></i></a>
+                <a href="https://github.com/Gaurav-B-R" target="_blank" style="margin-right: 15px; color: #34495e;"><i class="fab fa-github" style="font-size: 1.5em;"></i></a>
+                <a href="https://www.kaggle.com/gauravbr" target="_blank" style="color: #34495e;"><i class="fab fa-kaggle" style="font-size: 1.5em;"></i></a>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Education Section -->
-    <section id="education" class="py-16">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-8">Education</h2>
-            <div class="space-y-6">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold">Master of Science in Data Analytics</h3>
-                    <p class="text-gray-600">Clark University</p>
-                    <p class="text-gray-700">Aug 2023 – Dec 2024</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold">Advanced Programme in Data Science</h3>
-                    <p class="text-gray-600">International Institute of Information Technology, Bangalore</p>
-                    <p class="text-gray-700">Sep 2022 – Jun 2023</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold">Bachelor of Engineering</h3>
-                    <p class="text-gray-600">BMS Institute of Technology and Management</p>
-                    <p class="text-gray-700">Aug 2017 – Aug 2021</p>
-                </div>
-            </div>
-        </div>
-    </section>
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-6 text-center">
-            <p>© 2024 Gaurav Bharatavalli Rangaswamy. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
