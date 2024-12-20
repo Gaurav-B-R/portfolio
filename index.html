@@ -79,7 +79,7 @@
         </div>
     </header>    
 
-<div class="content">
+<div class="content" style="animation: fadeIn 2s ease-in;">
 
     <div class="section" style="margin-top: 50px;">
         <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">About Me</h2>
@@ -88,16 +88,43 @@
 
     <div class="section" style="margin-top: 50px;">
         <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">Technical Skills</h2>
-        <ul style="list-style: none; padding: 0; margin-top: 20px;">
-            <li style="margin-bottom: 10px;"><strong>Programming/Tools:</strong> Python, R Programming, SQL, Flask, FastAPI, MS Excel, Google Analytics</li>
-            <li style="margin-bottom: 10px;"><strong>Libraries:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels, TensorFlow, Keras, PyTorch, OpenCV, NLTK</li>
-            <li style="margin-bottom: 10px;"><strong>Database:</strong> MySQL, MS SQL Server, Apache Spark</li>
-            <li style="margin-bottom: 10px;"><strong>Cloud:</strong> AWS (S3, Redshift, SageMaker)</li>
-            <li style="margin-bottom: 10px;"><strong>Business Intelligence:</strong> Power BI, Tableau, Looker Studio</li>
-            <li style="margin-bottom: 10px;"><strong>Statistics/Machine Learning (ML):</strong> Supervised Learning: Linear Regression, Time Series Forecasting, Logistic Regression, Decision Trees, Random Forest, Boosting; Unsupervised Learning: Clustering, Principle Component Analysis (PCA); Others: Hypothesis Testing, Natural Language Processing (NLP), Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), Computer Vision</li>
-            <li style="margin-bottom: 10px;"><strong>Key Skills:</strong> Exploratory Data Analysis, Data Visualization, Predictive and Statistical Modeling, Git</li>
-        </ul>
-    </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Programming/Tools:</strong>
+                <p><i class="fab fa-python"></i> Python, R Programming, SQL, Flask, FastAPI, MS Excel, Google Analytics</p>
+            </div>
+    
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Libraries:</strong>
+                <p><i class="fas fa-code"></i> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels, TensorFlow, Keras, PyTorch, OpenCV, NLTK</p>
+            </div>
+    
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Database:</strong>
+                <p><i class="fas fa-database"></i> MySQL, MS SQL Server, Apache Spark</p>
+            </div>
+    
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Cloud:</strong>
+                <p><i class="fas fa-cloud"></i> AWS (S3, Redshift, Sagemaker)</p>
+            </div>
+    
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Business Intelligence:</strong>
+                <p><i class="fas fa-chart-bar"></i> Power BI, Tableau, Looker Studio</p>
+            </div>
+    
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Statistics/Machine Learning (ML):</strong>
+                <p><i class="fas fa-chart-line"></i> Supervised Learning: Linear Regression, Time Series Forecasting, Logistic Regression, Decision Trees, Random Forest, Boosting; Unsupervised Learning: Clustering, Principal Component Analysis (PCA); Others: Hypothesis Testing, Natural Language Processing (NLP), Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), Computer Vision</p>
+            </div>
+    
+            <div class="skill-entry" style="background: #f9f9f9; padding: 15px; border-left: 5px solid #e67e22;">
+                <strong>Key Skills:</strong>
+                <p><i class="fas fa-tools"></i> Exploratory Data Analysis, Data Visualization, Predictive and Statistical Modeling, Git</p>
+            </div>
+        </div>
+    </div>        
 
     <div class="section" style="margin-top: 50px;">
         <h2 style="color: #34495e; font-size: 2em; border-bottom: 2px solid #e67e22; padding-bottom: 5px;">Work Experience</h2>
@@ -214,6 +241,13 @@
     </div>
 
 </div>
+
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    </style>
 
 </body>
 </html>
