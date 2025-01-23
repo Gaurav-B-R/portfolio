@@ -9,7 +9,7 @@ Hello! I’m **Gaurav Bharatavalli Rangaswamy**, a **Machine Learning Engineer**
 - **Real-World Impact**: My projects range from AI-based chatbots to advanced data analytics and visualization tools.
 
 ## Professional Goals
-I aspire to innovate in the fields of AI and machine learning, focusing on developing cutting-edge solutions that enhance user experiences and optimize business processes.
+I aspire to  in the fields of AI and machine learning, focusing on developing cutting-edge solutions that enhance user experiences and optimize business processes.
 
 ## Contact Me
 - **Email**: gauravhsn8@gmail.com
