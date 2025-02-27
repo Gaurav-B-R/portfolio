@@ -11,6 +11,9 @@ Hello! I’m **Gaurav Bharatavalli Rangaswamy**, a **Machine Learning Engineer**
 ## Professional Goals
 I aspire to innovate in the fields of AI and machine learning, focusing on developing cutting-edge solutions that enhance user experiences and optimize business processes.
 
-
+## Contact Me
+- **Email**: gauravhsn8@gmail.com
+- **LinkedIn**: [linkedin.com/in/gaurav-b-r](https://www.linkedin.com/in/gaurav-b-r/)
+- **GitHub**: [github.com/Gaurav-B-R](https://github.com/Gaurav-B-R)
 
 Let’s connect and collaborate on exciting opportunities!
