@@ -1,7 +1,7 @@
 # Welcome to My Portfolio
 
 ## About Me
-Hello! I’m **Gaurav Bharatavalli Rangaswamy**, a **Machine Learning Engineer** and a **Data Scientist** with a strong focus on using data-driven solutions to solve real-world problems. My expertise lies in building scalable models, performing deep data analysis, and creating innovative solutions that empower businesses and users alike.
+Hello! I’m **Gaurav Bharatavalli Rangaswamy**, a **Machine Learning Engineer** and a **Data Scientist** with a strong focus on using data-driven solutions to solve real-world problems. My expertise lies in building scalable models, performing deep data analysis, and creating innovative solutions that empower businesses and users .
 
 ### Key Highlights:
 - **Driven by Data, Powered by AI**: I am committed to harnessing the power of AI to unlock potential and drive meaningful impact.
