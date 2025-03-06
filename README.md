@@ -6,7 +6,7 @@ Hello! I’m **Gaurav Bharatavalli Rangaswamy**, a **Machine Learning Engineer**
 ### Key Highlights:
 - **Driven by Data, Powered by AI**: I am committed to harnessing the power of AI to unlock potential and drive meaningful impact.
 - **Technical Expertise**: Proficient in Python, SQL, Tableau, Power BI, TensorFlow, and various machine learning frameworks.
-- **Real-World Impact**: My projects range from AI-based chatbots to advanced data analytics and visualization tools.
+- **Real-World Impact**: My projects range from AI-based chatbots to  data analytics and visualization tools.
 
 ## Professional Goals
 I aspire to innovate in the fields of AI and machine learning, focusing on developing cutting-edge solutions that enhance user experiences and optimize business processes.
